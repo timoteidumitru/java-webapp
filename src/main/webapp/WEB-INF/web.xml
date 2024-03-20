@@ -1,0 +1,10 @@
+<web-app>
+    <filter>
+        <filter-name>AuthFilter</filter-name>
+        <filter-class>ro.iteahome.webapp.filter.AuthFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AuthFilter</filter-name>
+        <url-pattern>/secured</url-pattern>
+    </filter-mapping>
+</web-app>
